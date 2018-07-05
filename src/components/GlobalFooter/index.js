@@ -8,14 +8,14 @@ const GlobalFooter = ({ className, links, copyright }) => {
     <div className={clsString}>
       {links && (
         <div className={styles.links}>
-          {links.map(link => (
+          {/* {links.map(link => (
             <a key={link.key} target={link.blankTarget ? '_blank' : '_self'} href={link.href}>
               {link.title}
             </a>
-          ))}
+          ))} */}
         </div>
       )}
-      {copyright && <div className={styles.copyright}>{copyright}</div>}
+      {/* {copyright && <div className={styles.copyright}>{copyright}</div>} */}
     </div>
   );
 };
